@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Tablettes de dégustation",
+        "price": 12.50,
+        "img": "calque%2061.jpg",
+        "data": "tablette"
+    },
+    {
+        "title": "Chocolat Belge",
+        "price": 11.20,
+        "img": "calque%206.png",
+        "data": "chocobelge"
+    },
+    {
+        "title": "Happy holliday",
+        "price": 10.00,
+        "img": "calque%207.png",
+        "data": "happyholliday1"
+    },
+    {
+        "title": "Joyeux noël",
+        "price": 15.50,
+        "img": "calque%202.png",
+        "data": "joyeuxnoel"
+    },
+    {
+        "title": "Trio de chocolat",
+        "price": 13.50,
+        "img": "calque%201.png",
+        "data": "triochoco"
+    },
+    {
+        "title": "Every things",
+        "price": 12.50,
+        "img": "calque%208.jpg",
+        "data": "everything"
+    },
+    {
+        "title": "Happy Hollidays",
+        "price": 18.50,
+        "img": "calque%203.jpg",
+        "data": "happyholliday2"
+    },
+    {
+        "title": "Happy Hollidays",
+        "price": 12.50,
+        "img": "calque%206.png",
+        "data": "happyholliday3"
+    }
+]

@@ -1,0 +1,56 @@
+
+.hamburger {
+    input {
+        position : absolute;
+        opacity: 0; 
+        z-index: 2;
+        width: 35px;
+        height: 30px;
+        &:not(:checked) ~ ul {
+            visibility: hidden;
+        }
+    }
+
+    
+    .hamburger-menu {
+        position: absolute;
+        right: 5%;
+        z-index: 3;
+        background-color: $brown;
+        padding: 4% 7% 2% 7%;
+        li{
+            list-style: none;
+            padding-bottom: 20%;
+            a {
+                text-decoration: none;
+                color: $white;
+                font-weight: 600;
+                &:hover {
+                    transition: 300ms;
+                    color: $pink;
+                }
+            }
+        }
+    }
+}
+
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: $white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }

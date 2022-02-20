@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocoland</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">
+                <img class="logo" src="assets/img/Logo.png">
+            </a>
+        </div>
+        <div class="navbar-ul">
+            <ul>
+                <li>
+                    <a href="#">Accueil</a>
+                </li>
+                <li>
+                    <a href="#">À Propos</a>
+                </li>
+                <li>
+                    <a href="#">Page</a>
+                    </li>
+                <li>
+                    <a href="#">Boutique</a>
+                </li>
+                <li>
+                    <a href="#">Compte</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <div class="hamburger-container">
+            <input type="checkbox" />
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="hamburger-menu">
+                <li>
+                    <a href="#">Accueil</a>
+                </li>
+                <li>
+                    <a href="#">À Propos</a>
+                </li>
+                <li>
+                    <a href="#">Page</a>
+                    </li>
+                <li>
+                    <a href="#">Boutique</a>
+                </li>
+                <li>
+                    <a href="#">Compte</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-btn">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+            </a>
+        </div>
+        </div>
+        <div class="navbar-btn">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <header>
+       
+
+        <div class="section2-card">
+            <a href="#" data-item="'+items[i].data+'">
+                <img class="section2-img" src="assets/img/'+items[i].img+'" alt="" srcset="">
+            </a>
+            <div class="section2-btns">
+                <div class="section2-btn">
+                    <a data-item="'+items[i].data+'" class="basket">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">'+
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />'+
+                        </svg>
+                    </a>
+                </div>
+                <div class="section2-btn">
+                    <a href=""  data-item="'+items[i].data+'">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">'+
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />'+
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="section2-text">
+                <a href="#"  data-item="'+items[i].data+'">
+                    <p>'+items[i].title+'</p>
+                </a>
+                <a href="#"  data-item="'+items[i].data+'">
+                    <p>'+items[i].price+'</p>
+                </a>
+            </div>
+        </div>;
+
+    </header>
+    <section class="section5">
+        <a href="">
+            <img class="logo" src="assets/img/Logo.png">
+        </a>
+        <div class="footertop">
+            <div class="section5-col1">
+                <h2>Chocoland</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam dolorum.</p>
+            </div>
+            <div class="section5-colgroup">
+                <div class="section5-col2">
+                    <h3>Catégories</h3>
+                    <ul>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Nouveauté</a></li>
+                        <li><a href="#">Meilleures ventes</a></li>
+                        <li><a href="#">Nos engagements</a></li>
+                        <li><a href="#">Notre équipe</a></li>
+                    </ul>
+                </div>
+                
+                <div class="section5-col3">
+                    <h3>Liens</h3>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">À propos de</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Boutique</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+                <div class="section5-col4">
+                    <h3>Horaires</h3>
+                    <p>Lundi au vendredi 8h à 20h</p>
+                    <p>Samedi 10h à 20h</p>
+                    <p>Dimanche de 12h à 20h</p>
+                </div>
+            </div>
+        </div>
+        <h3 class="section5-phone">Appelez-nous au 555-5496</h3>
+    </section>
+    <footer>
+        <div class="footerbottom">
+            <p>Copyright &copy 2021</p>
+            <div class="footerbottom-links">
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Conditions générales de vente</a>
+            </div>
+        </div>
+    </footer>
+    <div id="basket" class="none">
+        <div id="backethead">
+            <p>Mon pannier</p>
+            <a id="closebasket">X</a>
+        </div>
+        
+        <div id="basketcontent">
+
+        </div>
+        <div id="basketotal">
+
+        </div>
+        <a href="">Commander</a>
+    </div>
+</body>
+</html>
